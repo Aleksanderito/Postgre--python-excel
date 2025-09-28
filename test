@@ -1,0 +1,16 @@
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "age": 30,
+  "isStudent": false,
+  "address": {
+    "street": "123 Main St",
+    "city": "Anytown",
+    "zipCode": "12345"
+  },
+  "courses": [
+    "History",
+    "Math",
+    "Science"
+  ]
+}
