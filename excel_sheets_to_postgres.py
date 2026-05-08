@@ -9,11 +9,11 @@ IF_EXISTS = "replace"  # replace | truncate | append
 
 # ===== Подключение к Postgres =====
 def get_engine_from_env():
-    host = os.getenv("PGHOST", "10.99.250.187")
-    port = os.getenv("PGPORT", "34280")
+    host = os.getenv("PGHOST", "1******")
+    port = os.getenv("PGPORT", "****")
     db   = os.getenv("PGDATABASE", "maghmilog")
     user = os.getenv("PGUSER", "GoLang")
-    pwd  = os.getenv("PGPASSWORD", "1234")
+    pwd  = os.getenv("PGPASSWORD", "******")
     return create_engine(f"postgresql+psycopg2://{user}:{pwd}@{host}:{port}/{db}")
 
 # /////////// LOGS /////////////////
